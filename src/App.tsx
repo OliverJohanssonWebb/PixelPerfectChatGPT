@@ -1,8 +1,14 @@
+import Hero from "./Components/Hero/Hero"
+import SideBarLeft from "./Components/SideBarLeft/SideBarLeft"
+
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Hero />
+    <SideBarLeft />
+    </>
   )
 }
 
