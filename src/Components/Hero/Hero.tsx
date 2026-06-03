@@ -1,9 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment } from '@fortawesome/free-solid-svg-icons'
+
 const Hero = () => {
   return (
     <>
-      <div className="w-5/6 h-20 flex items-center justify-between bg-amber-700"> {/*MainContainer*/}
+      <div className="h-20 flex items-center justify-between bg-amber-700"> {/*MainContainer*/}
         <button className="bg-blue-500 text-white px-4 py-2 rounded-full">
           ChatGPT
         </button>
