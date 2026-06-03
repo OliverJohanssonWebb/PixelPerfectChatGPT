@@ -11,7 +11,6 @@ const App = () => {
   return (
 <div className="flex h-screen">
   <SideBarLeft />
-
   <div className="w-5/6 flex flex-col">
     <Hero />
     <Chatwindow />
