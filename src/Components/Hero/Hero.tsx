@@ -1,24 +1,28 @@
 
 const Hero = () => {
   return (
-    <>
-      <div className="h-20 flex items-center justify-between bg-amber-700"> {/*MainContainer*/}
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-full">
+    <header className="h-16 bg-black text-white flex items-center justify-between px-6 border-b border-[#222]">
+      
+      {/* Left */}
+      <div className="flex items-center gap-3 cursor-pointer">
+        <span className="text-[18px] font-medium">
           ChatGPT
+        </span>
+      </div>
+
+      {/* Right */}
+      <div className="flex items-center gap-3">
+        
+        <button className="px-4 py-2 text-sm rounded-full hover:bg-[#1a1a1a] transition">
+          Logga in
         </button>
 
-        <div className="flex gap-4">
-          <button className="bg-white text-black px-4 py-2 rounded-full">
-            Logga in
-          </button>
-          
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-full mr-5">
-            Registrera dig gratis!
-          </button>
-        </div>
+        <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition">
+          Registrera dig
+        </button>
       </div>
-    </>
-  )
-}
+    </header>
+  );
+};
 
 export default Hero
